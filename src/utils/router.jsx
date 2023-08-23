@@ -4,7 +4,7 @@ import Room from "../pages/Room/Room";
 import Favorite from "../pages/Favorite/Favorite";
 import Header from "../component/Layout/Header/Header";
 import Footer from "../component/Footer/Footer";
-import Index from "../component/Layout";
+import Layout from "../component/Layout/Layout";
 
 
 export default function  Router(){
@@ -14,7 +14,7 @@ export default function  Router(){
         {
 
             path: '',
-            element: <Index/>,
+            element: <Layout/>,
         children: [
         {
             path: "/",

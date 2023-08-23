@@ -1,0 +1,76 @@
+.register{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  &__out{
+    display: flex;
+    justify-content: end;
+  }
+  &__list{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    font-size: 22px;
+    font-weight: 700;
+    &-menu{
+      cursor: pointer;
+    }
+  }
+  &__input{
+    display: flex;
+    padding-top: 20px;
+
+    &-info{
+      display: flex;
+      padding: 10px 100px 10px 30px;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    &-text{
+      font-size: 12px;
+      font-weight: 500;
+    }
+    &-btn{
+      display: flex;
+      margin: 30px;
+      justify-content: center;
+    }
+    &-accept{
+      display: flex;
+      padding: 20px 0 0 0;
+      column-gap: 10px;
+    }
+    &-logo1{
+      position: absolute;
+      top: 197px;
+      left: 25px;
+      color: gray;
+
+    }
+    &-logo2{
+      position: absolute;
+      top: 261px;
+      left: 25px;
+      color: gray;
+    }
+  }
+  &__meta{
+    display: flex;
+    justify-content: space-around;
+    &-icons{
+      size: 30px;
+    }
+  }
+  &__btn{
+    padding: 16px 60px;
+    background: #22CA46;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
